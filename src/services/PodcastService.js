@@ -3,7 +3,6 @@ import axios from "axios";
 
 class PodcastsService {
   podcasts;
-  authors;
   url="https://itunes.apple.com/us/rss/toppodcasts/limit=100/genre=1310/json";
 
   constructor() {
@@ -12,10 +11,6 @@ class PodcastsService {
 
   getPodcasts() {
     return this.podcasts.value;
-  }
-
-  getAuthors() {
-    return this.authors.value;
   }
 
   async fetchAllPodcasts() {

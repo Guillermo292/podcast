@@ -1,7 +1,8 @@
 <script setup>
 import { onBeforeMount, ref, computed } from "vue";
-import PodcastsService from "../services/PodcastsService";
+import PodcastsService from "../services/PodcastService";
 import CardPodcast from "../components/CardPodcast.vue";
+import HeadPage from "../components/HeadPage.vue";
 import FilterBar from "../components/FilterBar.vue";
 
 const podcastService = new PodcastsService();

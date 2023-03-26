@@ -1,0 +1,13 @@
+@use "/src/scss/resetpro.scss";
+@use "/src/scss/_mixins.scss";
+@use "/src/scss/_colors.scss";
+
+
+body{
+    font-family:sans-serif;
+  
+}
+
+.bold{
+    font-weight: bold;
+}
